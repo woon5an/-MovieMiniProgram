@@ -1,0 +1,10 @@
+<view class="profile">
+  <view class='' style='background: url("userAvatarUrl") no-repeat  top/cover'></view>
+  <view class="profile-img">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName" class="profile-name"></open-data>
+</view>
+<view class='desc'>
+  转身离开，你有话说不出来.
+</view>
