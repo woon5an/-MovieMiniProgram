@@ -2,7 +2,7 @@
 
 ## 项目简介
 因为公司最近给我分了个项目前端是需要PC端和小程序端都要的，因为之前没学习过小程序开发，借这次机会学习一下小程序的开发。因为有vue的基础，所以在看文档的时候就有一点熟悉的感觉。<br>
-主要有三个page，movie主要展示从豆瓣调用的api展示的电影列表；![movie](./miniprogram/images/PicsForReadme/5.PNG)<br>点击评价进入comment，主要展示电影的详情并可以发表评价；<br>
+主要有三个page，movie主要展示从豆瓣调用的api展示的电影列表；![movie](https://github.com/Woon1997/-MovieMiniProgram/blob/MovieMiniProgram/miniprogram/images/PicsForReadme/1.png)<br>点击评价进入comment，主要展示电影的详情并可以发表评价；<br>
 ![comment](./miniprogram/images/PicsForReadme/6.PNG)<br>最后是profile，顾名思义就是简单的个人信息页面<br>
 ![profile](./miniprogram/images/PicsForReadme/7.PNG)<br>
 我是19年毕业刚入行的小白，有些代码写的不好，希望各位前辈大佬们可以指点指点<br>
