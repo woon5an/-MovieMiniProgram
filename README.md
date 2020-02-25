@@ -2,9 +2,9 @@
 
 ## 项目简介
 因为公司最近给我分了个项目前端是需要PC端和小程序端都要的，因为之前没学习过小程序开发，借这次机会学习一下小程序的开发。因为有vue的基础，所以在看文档的时候就有一点熟悉的感觉。<br>
-主要有三个page，movie主要展示从豆瓣调用的api展示的电影列表；![movie](https://github.com/Woon1997/-MovieMiniProgram/blob/MovieMiniProgram/miniprogram/images/PicsForReadme/1.png)<br>点击评价进入comment，主要展示电影的详情并可以发表评价；<br>
-![comment](./miniprogram/images/PicsForReadme/6.PNG)<br>最后是profile，顾名思义就是简单的个人信息页面<br>
-![profile](./miniprogram/images/PicsForReadme/7.PNG)<br>
+主要有三个page，movie主要展示从豆瓣调用的api展示的电影列表；![](https://github.com/Woon1997/-MovieMiniProgram/blob/MovieMiniProgram/miniprogram/images/PicsForReadme/5.png)<br>点击评价进入comment，主要展示电影的详情并可以发表评价；<br>
+![](https://github.com/Woon1997/-MovieMiniProgram/blob/MovieMiniProgram/miniprogram/images/PicsForReadme/6.png)<br>最后是profile，顾名思义就是简单的个人信息页面<br>
+![](https://github.com/Woon1997/-MovieMiniProgram/blob/MovieMiniProgram/miniprogram/images/PicsForReadme/7.png)<br>
 我是19年毕业刚入行的小白，有些代码写的不好，希望各位前辈大佬们可以指点指点<br>
 
 ### 开发记录（记录一下过程和坑）
@@ -18,9 +18,9 @@
     "pages/profile/profile"
   ],
 ```
-![目录](./miniprogram/images/PicsForReadme/1.PNG) <br>
+![目录](https://github.com/Woon1997/-MovieMiniProgram/blob/MovieMiniProgram/miniprogram/images/PicsForReadme/1.PNG) <br>
 坑：自动生成文件失败<br>
-![自动生成失败](./miniprogram/images/PicsForReadme/2.PNG) <br>
+![自动生成失败](https://github.com/Woon1997/-MovieMiniProgram/blob/MovieMiniProgram/miniprogram/images/PicsForReadme/2.PNG) <br>
 解决办法：
 项目初始化后的app.json是自带了一些页面路径的，在删掉这些路径配置和硬盘中的文件前先配置一条你需要的一个页面路径，这时候一般是能自动生成文件，没有问题之后就可以把初始化自带的页面路径都删掉了，然后就能愉快的在这里配置其他页面路径并自动生成文件了。
 
@@ -42,9 +42,9 @@ npm init  //输入之后一路回车到结束
 npm i vant-weapp -S --production
 ```
 接着到工具下点击构建npm，成功之后miniprogram下会生成miniprogram_npm文件夹，里面就有vant-weapp的包 <br>
-![构建npm](./miniprogram/images/PicsForReadme/3.JPG) <br>
+![构建npm](https://github.com/Woon1997/-MovieMiniProgram/blob/MovieMiniProgram/miniprogram/images/PicsForReadme/3.JPG) <br>
 最后一步是到开发工具最右边点击箭头里的详情勾选使用npm模块<br>
-![使用npm模块](./miniprogram/images/PicsForReadme/4.PNG) <br>
+![使用npm模块](https://github.com/Woon1997/-MovieMiniProgram/blob/MovieMiniProgram/miniprogram/images/PicsForReadme/4.PNG) <br>
 引入组件库：<br>
 比如在profile.json中引入组件库
 ```JAVASCRIPT
